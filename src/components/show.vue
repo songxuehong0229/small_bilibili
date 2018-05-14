@@ -35,27 +35,14 @@
         <div class="about" v-if="isAbout" >
             <span class="close" @click="back">X</span>
             <div class="title">关于</div>
-            <div class="name">游洪莲</div>
-            <div class="job">求职意向: <span class="jobWanted">web前端工程师</span></div>
-            <div > 
-                <p class="job">个人信息: </p>
-                <span class="jobDetail">东华理工大学(本科)</span></br>
-                <span class="jobDetail">软件工程(2018毕业)</span></br>
-                <span class="jobDetail">13257918110</span></br>
-                <span class="jobDetail">994312463@qq.com</span>
-            </div>
             <div>
                 <p class="skill">技术栈:</p>
                 <span class="skillDetail">
                     【前端】HTML/HTML5   CSS/CSS3   JavaScript(ES6,ES5)   SASS   Stylus   Vue.JS   AJAX   jQuery   微信小程序   Babel</br>
                     【后端】Node.js (express)</br>
-                    【数据库】MongoDB</br>
                     【自动化构建】Webpack</br>
                     【版本管理】git
                 </span>
-            </div>
-            <div class="desc">个人网站:
-                <a href="http://youhonglian.github.io">Youuu</a>
             </div>
         </div>
       </transition>
